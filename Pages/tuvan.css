@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #581717;
+}
+
+/* Banner section */
+.banner {
+  width: 90vw;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Menu section */
+ul.menu {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+  background-color: orange;
+}
+
+ul.menu li {
+  font-size: 1.1em;
+  border-right: 1px solid white;
+  transition: all 1s ease;
+  cursor: pointer;
+  & a {
+    padding: 6px 50px;
+    display: block;
+  }
+}
+
+ul.menu li:hover {
+  background-color: rgb(255, 194, 80);
+}
+
+#cancel-border {
+  border-right: none;
+}
+
+ul.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Container section */
+.container {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.container .nav-bar {
+  width: 35%;
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #6b0829;
+}
+
+.container .nav-bar img {
+  width: 60%;
+  cursor: pointer;
+}
+
+.container .nav-bar .search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-bar .search button {
+  margin-top: 5px;
+  width: 70%;
+}
+
+.nav-bar .login {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.nav-bar .login button {
+  width: 60%;
+  margin-top: 5px;
+}
+
+.container .content {
+  width: 80%;
+}
+
+.content form {
+  background-color: rgb(122, 206, 122);
+  border: 1px solid white;
+  margin: 3%;
+  padding: 10px 40px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-bottom: 20px;
+  gap: 7px;
+}
+.form-row label,
+.form-row p {
+  margin-left: auto;
+}
+
+.required span {
+  color: red;
+}
+.blue span {
+  font-size: 10px;
+}
+
+input#day {
+  width: 70px;
+}
+input#month {
+  width: 70px;
+}
+input#year {
+  width: 100px;
+}
+.taken {
+  width: 5px;
+}
+
+.form-row button {
+  padding: 2px 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid blue;
+  }
+}
+
+/* Footer section */
+footer {
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #8a0632;
+}
+
+footer h2 {
+  color: white;
+  padding: 2%;
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #581717;
+}
+
+/* Banner section */
+.banner {
+  width: 90vw;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Menu section */
+ul.menu {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+  background-color: orange;
+}
+
+ul.menu li {
+  font-size: 1.1em;
+  border-right: 1px solid white;
+  transition: all 1s ease;
+  cursor: pointer;
+  & a {
+    padding: 6px 50px;
+    display: block;
+  }
+}
+
+ul.menu li:hover {
+  background-color: rgb(255, 194, 80);
+}
+
+#cancel-border {
+  border-right: none;
+}
+
+ul.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Container section */
+.container {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.container .nav-bar {
+  width: 35%;
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #6b0829;
+}
+
+.container .nav-bar img {
+  width: 60%;
+  cursor: pointer;
+}
+
+.container .nav-bar .search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-bar .search button {
+  margin-top: 5px;
+  width: 70%;
+}
+
+.nav-bar .login {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.nav-bar .login button {
+  width: 60%;
+  margin-top: 5px;
+}
+
+.container .content {
+  width: 80%;
+  padding-left: 3%;
+  padding-block: 3%;
+}
+
+.container .content h1 {
+  color: white;
+}
+
+.container .content p {
+  margin-top: 20px;
+  color: white;
+}
+
+.container .content .p-img-container {
+  display: flex;
+}
+
+/* Footer section */
+footer {
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #8a0632;
+}
+
+footer h2 {
+  color: white;
+  padding: 2%;
+}

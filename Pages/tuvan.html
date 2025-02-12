@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mỹ Phẩm Exercise</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="tuvan.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="../Images/banner-1.jpg" alt="">
+        <img src="../Images/banner-2.jpg" alt="">
+        <img src="../Images/banner-3.jpg" alt="">
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="gioithieu.html">Giới Thiệu</a></li>
+        <li><a href="sanpham.html">Sản Phẩm</a></li>
+        <li><a href="#">Hỏi Đáp</a></li>
+        <li><a href="#">Tư Vấn</a></li>
+        <li><a href="#">Giỏ Hàng</a></li>
+        <li id="cancel-border"><a href="#">Liên Hệ</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="nav-bar">
+            <img src="../Images/nut-trai-1.gif" alt=""><a href="#"></a>
+            <img src="../Images/nut-trai-2.gif" alt=""><a href="#"></a>
+            <img src="../Images/nut-trai-3.gif" alt=""><a href="#"></a>
+            <img src="../Images/nut-trai-4.gif" alt=""><a href="#"></a>
+            <img src="../Images/nut-trai-5.gif" alt=""><a href="#"></a>
+            <img src="../Images/nut-trai-6.gif" alt=""><a href="#"></a>
+            <img src="../Images/hinh-trai.jpg" alt=""><a href="#"></a>
+
+            <div class="search">
+                <input type="text">
+                <button>Tìm Kiếm</button>
+            </div>
+
+            <div class="login">
+                <h3>Đăng Nhập</h3>
+                <input type="text">
+                <h3>Mật Khẩu</h3>
+                <input type="text">
+                <button>Đăng Nhập</button>
+            </div>
+        </div>
+        <div class="content">
+            <form action="">
+                <div class="form-row required">
+                    <label for="name">Họ và tên :</label>
+                    <div>
+                        <input id="name" type="text">
+                        <span>(*)</span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="address">Địa Chỉ :</label>
+                    <input id="address" type="text">
+                </div>
+                <div class="form-row required">
+                    <label for="email">Email :</label>
+                    <div>
+
+                        <input id="email" type="text">
+                        <span>(*)</span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="phone">Điện Thoại :</label>
+                    <input id="phone" type="text">
+                </div>
+                <div class="form-row blue" >
+                    <label for="day">Ngày Sinh :</label>
+                    <div>
+                        <input id="day" type="text">
+                        <span>/</span>
+                        <input id="month" type="text">
+                        <span>/</span>
+                        <input id="year" type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="subject">Đề tài :</label>
+                    <select id="subject" >
+                        <option value="none"  >Tìm hiểu sứa biển</option>
+                        <option value="1"  >1</option>
+                        <option value="2"  >2</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <p >Nhóm :</label>
+                    <div>
+                        <input type="radio" name="group" id="Nghiên cứu">
+                        <label for="Nghiên cứu">Nghiên cứu</label>
+                        <br>
+                        <input type="radio" name="group" id="Hải ngư">
+                        <label for="Hải ngư">Hải ngư</label>
+                        <br>
+                        <input type="radio" name="group" id="Viễn dương">
+                        <label for="Viễn dương">Viễn dương</label>
+                        <br>
+                        <input type="radio" name="group" id="Mỹ thuật">
+                        <label for="Mỹ thuật">Mỹ thuật</label>
+                        <br>
+                        <input type="radio" name="group" id="Thực phẩm">
+                        <label for="Thực phẩm">Thực phẩm</label>
+                        <br>
+                        <input type="radio" name="group" id="Sinh viên">
+                        <label for="Sinh viên">Sinh viên</label>
+                        <br>
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <label for="image">Gửi hình:</label>
+                    <input type="file">
+                </div>
+                <div class="form-row">
+                    <p >Tài liệu :</label>
+                    <div>
+                        <input type="checkbox" id="Sinh vật biển">
+                        <label for="Sinh vật biển">Sinh vật biển</label>
+                        <br>
+                        <input type="checkbox" id="Các loại sứa biển">
+                        <label for="Các loại sứa biển">Các loại sứa biển</label>
+                        <br>
+                        <input type="checkbox" id="Môi trường biển">
+                        <label for="Môi trường biển">Môi trường biển</label>
+                        <br>
+                        <input type="checkbox" id="Khí hậu">
+                        <label for="Khí hậu">Khí hậu</label>
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <p class="taken"></p>
+                    <div>
+                        <button type="submit"> Tham gia</button>
+                        <button type="reset"> Xóa thông tin</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Trang web được xây dựng bởi T3H Corp. 2007@</h2>
+    </footer>
+</body>
+</html>
